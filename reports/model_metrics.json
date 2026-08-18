@@ -1,0 +1,24 @@
+{
+  "benchmark": [
+    {
+      "name": "logistic_regression",
+      "oof_f1": 0.6368278762391109,
+      "threshold": 0.6000000000000003
+    },
+    {
+      "name": "random_forest",
+      "oof_f1": 0.6367896895137668,
+      "threshold": 0.48500000000000026
+    }
+  ],
+  "selected_model": "logistic_regression",
+  "final_test_metrics": {
+    "model": "logistic_regression",
+    "threshold": 0.6000000000000003,
+    "accuracy": 0.7799858055358411,
+    "precision": 0.5675105485232067,
+    "recall": 0.7192513368983957,
+    "f1": 0.6344339622641509,
+    "roc_auc": 0.8460254721124286
+  }
+}
